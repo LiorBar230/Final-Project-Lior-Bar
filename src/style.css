@@ -1,0 +1,97 @@
+h1 {
+  font-size: 50px;
+  font-weight: 350;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 350;
+}
+h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.currentLocation {
+  background-color: #225884;
+  border-radius: 30px;
+  border: solid 1px;
+  color: #faf5e4;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+.place {
+  background-color: #faf5e4;
+  border: solid #225884 2px;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.search {
+  background-color: #225884;
+  border-radius: 30px;
+  color: #faf5e4;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.now {
+  background-color: #f7ab00;
+  border: solid #225884 5px;
+  border-radius: 30px;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+.week {
+  background-color: #225884;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.col {
+  text-align: center;
+}
+.hours {
+  background: #225884;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 30px auto;
+}
+.day1,
+.day2,
+.day3,
+.day4,
+.day5,
+.day6 {
+  background-color: #f7ab00;
+  border-radius: 50px;
+  font-size: 15px;
+  margin: 5px;
+}
+.day {
+  font-weight: bold;
+}
+.time {
+  font-weight: bold;
+}
+.hour {
+  background-color: #f7ab00;
+  border-radius: 50px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.general {
+  background-color: #faf5e4;
+  border: solid #225884 2px;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  width: 650px;
+  text-align: center;
+}
