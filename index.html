@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project - Wireframe</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="general">
+      <link rel="stylesheet" href="src/style.css" />
+
+      <button class="currentLocation">Current Location</button>
+      <br />
+      <form id="searchCity">
+        <input
+          type="text"
+          placeholder=" Where are you going?"
+          id="searchCityEngine"
+          class="place"
+        />
+        <input type="submit" value="search" class="search" />
+      </form>
+      <div class="now">
+        <h2 id="currentLocation">Washington</h2>
+        <h5 id="currentDayTime">Sunday, 18:00</h5>
+        <h1 id="currentTempDisplay">30°</h1>
+        <h5>High:30° Low:23°</h5>
+        <h5>Sundown: 18:19</h5>
+        <div class="conditions">Sunny ☀</div>
+      </div>
+      <div class="container hours">
+        <div class="row hours">
+          <div class="col hour">
+            <span class="time">11 </span><br />30° <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">12</span><br />
+            30°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">13</span>
+            <br />
+            30°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">14</span><br />
+            29°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">15</span><br />
+            29°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">16</span><br />
+            29°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">17</span><br />
+            28°
+            <br />
+            ☀
+          </div>
+          <div class="col hour">
+            <span class="time">18</span> <br />
+            27°
+            <br />
+            ⛅
+          </div>
+          <div class="col hour">
+            <span class="time">19</span><br />
+            26°
+            <br />
+            🌙
+          </div>
+          <div class="col hour">
+            <span class="time">20</span> <br />
+            25°
+            <br />
+            🌙
+          </div>
+        </div>
+      </div>
+      <div class="container week">
+        <div class="row weekDays">
+          <div class="col day1">
+            <div class="day">Mon</div>
+            <div>
+              High 29° <br />
+              Low 20° <br />
+              🌤
+            </div>
+          </div>
+          <div class="col day2">
+            <div class="day">Tue</div>
+            <div>
+              High 26° <br />
+              Low 19° <br />
+              🌫
+            </div>
+          </div>
+          <div class="col day3">
+            <div class="day">Wed</div>
+            <div>
+              High 20° <br />
+              Low 15° <br />
+              🌧
+            </div>
+          </div>
+          <div class="col day4">
+            <div class="day">Thu</div>
+            <div>
+              High 20° <br />
+              Low 15° <br />
+              🌧
+            </div>
+          </div>
+          <div class="col day5">
+            <div class="day">Fri</div>
+            <div>
+              High 23° <br />
+              Low 20° <br />
+              🌤
+            </div>
+          </div>
+          <div class="col day6">
+            <div class="day">Sat</div>
+            <div>
+              High 26° <br />
+              Low 22° <br />
+              ☀
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
